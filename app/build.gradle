@@ -15,8 +15,8 @@ android {
         applicationId "webry.pickerman.redder"
         minSdk 25
         targetSdkVersion 33
-        versionCode 47
-        versionName '3.1'
+        versionCode 48
+        versionName '3.2'
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         signingConfig signingConfigs.production
