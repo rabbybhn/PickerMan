@@ -2,6 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
+        debug {
+            storeFile file('D:\\PickerMan\\production.jks')
+            storePassword 'Nsu@151e'
+            keyAlias 'production'
+            keyPassword 'Nsu@151e'
+        }
         production {
             storeFile file('D:\\PickerMan\\production.jks')
             storePassword 'Nsu@151e'
