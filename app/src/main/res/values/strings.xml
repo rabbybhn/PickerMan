@@ -1,0 +1,610 @@
+<resources>
+
+    <!-- Edit the following data -->
+
+    <string name="app_name">PickerMan</string>
+    <string name="app_version" translatable="false">2.9</string>
+    <string name="app_year" translatable="false">2023</string>
+    <string name="app_copyright" translatable="false">pickerman.live</string>
+    <string name="app_email" translatable="false">support@pickerman.live</string>
+    <string name="app_site" translatable="false">https:/pickerman.live</string>
+
+    <string name="app_lang_code">en</string>
+
+    <!-- Facebook App Id -->
+
+    <string name="facebook_app_id" translatable="false">171619242586098</string>
+    <string name="facebook_client_token" translatable="false">0c3c2f842ac0ac8a7de5e4888e4b62dd</string>
+
+    <!-- fb + Facebook App Id, example (you facebook app id: 123456): fb123456 -->
+
+    <string name="fb_login_protocol_scheme" translatable="false">fb345345345345345</string>
+
+    <!-- AdMob Banner Id -->
+
+    <!-- DEFAULT Ad UNIT ID: ca-app-pub-3940256099942544/6300978111 -->
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- AdMob App Id -->
+
+    <!-- DEFAULT Admob APP ID: ca-app-pub-3940256099942544~3347511713 -->
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- Google Places API Key -->
+
+    <string name="google_places_api_key" translatable="false">AIzaSyBQBosEi6zFPPmrWmdwkHDm7xtf3MQc_dI</string>
+
+    <!-- Share text -->
+
+    <string name="app_share_text" translatable="false">Download App: https://play.google.com/store/apps/details?id=webry.pickerman.redder</string>
+
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_unblock">Unblock</string>
+    <string name="action_block">Block</string>
+    <string name="action_about">About</string>
+    <string name="action_ok">OK</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_save">Save</string>
+    <string name="action_select">Select</string>
+    <string name="action_send">Send</string>
+    <string name="action_open">Open</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_reply">Reply</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_report">Report</string>
+    <string name="action_remove">Delete</string>
+    <string name="action_remove_chat">Delete chat</string>
+    <string name="action_deactivate">Deactivate</string>
+    <string name="action_create">Create</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_more">Load more</string>
+    <string name="action_post">Post</string>
+    <string name="action_search">Search</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_turn_on">Turn on</string>
+    <string name="action_turn_off">Turn off</string>
+    <string name="action_select_birth">Date of Birth</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_gallery">Choose from gallery</string>
+    <string name="action_copy_url">Copy link</string>
+    <string name="action_open_url">Open in a browser</string>
+    <string name="settings_allow_messages">Receive messages</string>
+    <string name="settings_allow_messages_summary">You will be able to receive Direct Messages from any user.</string>
+    <string name="action_share">Share</string>
+
+    <string name="action_new">New Item</string>
+    <string name="action_profile_edit_photo">Edit photo</string>
+    <string name="action_profile_edit_cover">Edit cover</string>
+    <string name="action_profile_edit">Edit</string>
+
+    <string name="action_login_with_facebook">Log in with Facebook</string>
+    <string name="action_signup_with_facebook">Sign up with Facebook</string>
+    <string name="action_connect_with_facebook">Connect with Facebook</string>
+    <string name="action_remove_connection">Remove connection</string>
+    <string name="action_regular_signup">Back to the regular Signup form</string>
+    <string name="action_forgot_password">Forgot password?</string>
+
+    <string name="label_profile_report_0">Spam</string>
+    <string name="label_profile_report_1">Hate speech or violence</string>
+    <string name="label_profile_report_2">Nudity or Pornography</string>
+    <string name="label_profile_report_3">Fake profile</string>
+    <string name="label_profile_report_4">Piracy</string>
+
+    <string name="label_sex_undefined">Gender Not Set</string>
+    <string name="label_sex_male">Gender Male</string>
+    <string name="label_sex_female">Gender Female</string>
+
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_login_or_email">Username or Email</string>
+    <string name="placeholder_fullname">Fullname</string>
+    <string name="placeholder_location">Location</string>
+    <string name="placeholder_facebook_page">Facebook</string>
+    <string name="placeholder_instagram_page">Instagram</string>
+    <string name="placeholder_bio">Bio</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_phone">Phone number, example: 017000000</string>
+    <string name="placeholder_subject">Subject</string>
+    <string name="placeholder_support_detail">What are you contacting us about?</string>
+    <string name="placeholder_current_password">Current password</string>
+    <string name="placeholder_new_password">New password</string>
+    <string name="placeholder_item_category">Category</string>
+    <string name="placeholder_item_title">Title</string>
+    <string name="placeholder_item_login">Username, email or phone</string>
+    <string name="placeholder_item_passw">Password</string>
+    <string name="placeholder_item_url">Web site</string>
+    <string name="placeholder_item_description">Description</string>
+    <string name="placeholder_search">Search</string>
+    <string name="placeholder_comment">Type a comment&#8230;</string>
+    <string name="placeholder_message">Type a message&#8230;</string>
+
+    <string name="msg_loading">Please wait&#8230;</string>
+    <string name="msg_loading_2">Loading. Please wait&#8230;</string>
+    <string name="msg_network_error">Please check your Internet connection</string>
+    <string name="msg_account_blocked">This account is blocked by a moderator.</string>
+    <string name="msg_account_disabled">Account disabled by user.</string>
+    <string name="msg_account_inactive">Account is not activated.</string>
+    <string name="msg_copied_to_clipboard">Copied to clipboard.</string>
+    <string name="msg_enter_item">Please write something or attach photo.</string>
+    <string name="msg_enter_msg">Please write something or attach photo.</string>
+    <string name="msg_send_msg_error">You can not send a message to the user.</string>
+    <string name="msg_item_posted">Item has been posted successfully.</string>
+    <string name="msg_item_saved">Item has been saved successfully.</string>
+    <string name="msg_password_changed">Password successfully changed</string>
+    <string name="msg_settings_saved">Settings successfully saved.</string>
+    <string name="msg_ticket_send_success">Your request is accepted! You will receive an answer to the email, which is indicated in the request.</string>
+    <string name="msg_password_reset_link_sent">A message with link to reset your password has been sent to your email.</string>
+    <string name="msg_no_such_user_in_bd">No such user in database</string>
+    <string name="msg_connect_to_facebook_success">You have successfully linked application with your account on Facebook!</string>
+    <string name="msg_connect_to_facebook_error">Your account on Facebook is already associated with another account.</string>
+    <string name="msg_connect_to_facebook_removed">Connect with your Facebook account removed.</string>
+    <string name="msg_comment_has_been_added">Comment has been added.</string>
+    <string name="msg_chat_has_been_removed">Chat has been removed.</string>
+    <string name="msg_profile_removed_from_blacklist">The user is removed from blocked list.</string>
+    <string name="msg_profile_link_copied">Profile link copied to clipboard.</string>
+    <string name="msg_profile_added_to_blacklist">The user is added to blocked list.</string>
+    <string name="msg_comments_disabled">The user does not want to comment on his Items.</string>
+    <string name="msg_post_has_been_already_shared">You have already shared this Item.</string>
+
+    <string name="error_signin">Incorrect username or password</string>
+    <string name="error_internet_connection">No internet Bruh!</string>
+    <string name="error_data_loading">When loading data error has occurred. Check your network connection.</string>
+    <string name="error_field_empty">Required fields are empty</string>
+    <string name="error_wrong_format">Wrong format</string>
+    <string name="error_small_password">Minimum 6 characters</string>
+    <string name="error_small_username">Minimum 5 characters</string>
+    <string name="error_small_fullname">Minimum 2 characters</string>
+    <string name="error_login_taken">Username is already taken</string>
+    <string name="error_email_taken">User with this mail is already registered</string>
+    <string name="error_phone_taken">User with this phone number is already registered</string>
+    <string name="error_password">Invalid password.</string>
+    <string name="error_email">Email invalid.</string>
+
+    <string name="label_gcm_comment">You have a new comment.</string>
+    <string name="label_gcm_message">You have a new message.</string>
+    <string name="label_gcm_comment_reply">You have a new reply to comment.</string>
+
+    <string name="label_authorization_via_facebook">Authorization via Facebook.</string>
+    <string name="label_account_connected_to_facebook">Connected with Facebook</string>
+    <string name="label_account_connect_to_facebook">Connect this account with your social network accounts</string>
+    <string name="label_empty_list">List is empty.</string>
+
+    <string name="label_post_share">Share Item</string>
+    <string name="label_block">Block</string>
+    <string name="label_block_msg">You will not receive messages and notifications from this user.</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_delete_msg">Do you want to delete this Item?</string>
+    <string name="label_delete_comment">Are you sure you want to delete this comment?</string>
+    <string name="label_post_report_title">Abuse report</string>
+    <string name="label_last_message_image">Image</string>
+    <string name="label_you_havent_items">You haven\'t items.</string>
+    <string name="label_user_havent_items">This user has no items.</string>
+    <string name="label_profile_reported">Profile reported.</string>
+    <string name="label_post_reported">Item reported.</string>
+    <string name="label_select_img">Select image</string>
+    <string name="label_delete_img">Delete image?</string>
+    <string name="label_account_disabled">Account blocked</string>
+    <string name="label_search_start_screen_msg">Find items by title or/and content.</string>
+    <string name="label_search_results">Found items:</string>
+    <string name="label_search_results_error">No results found</string>
+    <string name="label_comment_added">added a new comment.</string>
+    <string name="label_comment_reply_added">replied to your comment.</string>
+    <string name="label_post_to_dialog_title">Share With</string>
+    <string name="label_post_location">Location:</string>
+
+    <string name="label_items">items</string>
+    <string name="label_comments">comments</string>
+    <string name="label_online" translatable="false">Online</string>
+    <string name="label_offline" translatable="false">Offline</string>
+
+    <string name="label_to">to</string>
+
+    <string name="signup_label_1">By clicking Sign up, you agree to our</string>
+    <string name="signup_label_terms_and_policies">Terms and Policies</string>
+
+    <string name="settings_header_general">General</string>
+    <string name="settings_header_others">Others</string>
+    <string name="settings_header_about">About</string>
+    <string name="settings_header_notifications">Notification</string>
+
+    <string name="settings_notifications_reviews">Reviews</string>
+    <string name="settings_notifications_likes">Likes</string>
+    <string name="settings_notifications_comments">Comments</string>
+    <string name="settings_notifications_messages">Private messages</string>
+    <string name="settings_notifications_comment_reply">Reply to comment</string>
+
+    <string name="settings_version">Version</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_copyright_info">Copyright info</string>
+    <string name="settings_contact_us">Contact us</string>
+    <string name="settings_contact_us_summary">Report a problem</string>
+    <string name="settings_web_site">Our website</string>
+    <string name="settings_view_blocked_list">Blacklist</string>
+    <string name="settings_deactivate_account">Deactivate account</string>
+    <string name="settings_edit_account">Signature for your secrets</string>
+    <string name="settings_thanks">Acknowledgements</string>
+    <string name="settings_terms">Terms of use</string>
+    <string name="settings_change_password">Change password</string>
+    <string name="settings_services">Social Networks</string>
+    <string name="settings_notifications">Push notifications</string>
+    <string name="settings_services_summary">Connect with social network accounts</string>
+    <string name="settings_account_deactivation">If you continue to deactivate your account, you will not be able to recover this account. All your data will be deleted.</string>
+
+
+    <!-- Do not translate START -->
+
+    <string name="settings_file" translatable="false">account</string>
+    <string name="settings_account_id" translatable="false">account_id</string>
+    <string name="settings_account_username" translatable="false">account_username</string>
+    <string name="settings_account_access_token" translatable="false">access_token</string>
+
+    <string name="settings_account_allow_reviews_gcm" translatable="false">allow_reviews_gcm</string>
+    <string name="settings_account_allow_messages_gcm" translatable="false">allow_messages_gcm</string>
+    <string name="settings_account_allow_comments_gcm" translatable="false">allow_comments_gcm</string>
+    <string name="settings_account_allow_comments_reply_gcm" translatable="false">allow_comments_reply_gcm</string>
+
+    <string name="settings_account_notifications_count" translatable="false">account_notifications_count</string>
+    <string name="settings_account_messages_count" translatable="false">account_messages_count</string>
+
+    <string name="settings_account_photo_url" translatable="false">account_photo_url</string>
+    <string name="settings_account_cover_url" translatable="false">account_cover_url</string>
+    <string name="settings_account_fullname" translatable="false">account_fullname</string>
+
+    <string name="settings_account_lat" translatable="false">settings_account_lat</string>
+    <string name="settings_account_lng" translatable="false">settings_account_lng</string>
+    <string name="settings_language" translatable="false">settings_language</string>
+
+    <!-- Do not translate END -->
+
+    <string name="page_flow">Real-time Feed</string>
+    <string name="page_1">Recent Items</string>
+    <string name="page_2">Categories</string>
+    <string name="page_4">Nearby</string>
+    <string name="page_5">Favorites</string>
+    <string name="page_6">Notifications</string>
+    <string name="page_7">Messages</string>
+    <string name="page_8">Profile</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_main">Recent Items</string>
+    <string name="title_activity_recovery">Password recovery</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_web_view">Web View</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_services">Social Networks</string>
+    <string name="title_activity_new_item">New Item</string>
+    <string name="title_activity_view_item">Item</string>
+    <string name="title_activity_profile">Profile</string>
+
+    <string name="title_activity_category">Category</string>
+
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_photo_view">Photo</string>
+    <string name="title_activity_account_settings">Settings</string>
+    <string name="title_activity_report">Report</string>
+
+    <string name="title_activity_black_list">Blacklist</string>
+    <string name="title_activity_dialogs">Messages</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_notifications_settings">Push notifications</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_support">Contact us</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_edit_item">Edit</string>
+    <string name="title_activity_deactivate">Deactivate Account</string>
+
+    <string name="action_open_settings"><u>Open Location Settings</u></string>
+    <string name="action_set_location">Yes, this is my location</string>
+    <string name="action_detail">More details</string>
+    <string name="msg_location_error">We could not get your location.</string>
+
+    <string name="label_location_prompt">Allow access to your location to enable other features using location.</string>
+
+    <string name="label_nearby">Near you</string>
+
+    <string name="title_dialog_nearby">Select a Distance</string>
+
+    <string name="dialog_nearby_0">80 kilometers</string>
+    <string name="dialog_nearby_1">160 kilometers</string>
+    <string name="dialog_nearby_2">400 kilometers</string>
+    <string name="dialog_nearby_3">800 kilometers</string>
+    <string name="dialog_nearby_4">1,600 kilometers</string>
+
+    <string name="title_activity_nearby">Items Nearby</string>
+
+    <string name="page_15">Items Nearby</string>
+
+    <string name="error_action">This user has forbidden you to do it!</string>
+    <string name="error_disable_messages">The user does not want to receive Direct messages.</string>
+    <string name="error_signup_messages">Only registered users can send messages.</string>
+
+    <string name="label_currency" translatable="false">৳</string>
+
+    <string name="label_item_title_placeholder">Item title</string>
+    <string name="label_item_price_placeholder">Price</string>
+    <string name="label_item_description_placeholder">Description</string>
+    <string name="label_item_phone_placeholder">Phone Number</string>
+
+    <string name="msg_item_select_img">Do not select a picture!</string>
+    <string name="msg_item_select_title">Enter the title text! At least 5 characters</string>
+    <string name="msg_item_select_description">Enter description text! At least 10 characters</string>
+    <string name="msg_item_select_price">Enter your price!</string>
+    <string name="msg_item_select_phone">Please enter your phone number!</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_allow_comments">Allow Comments for this Ad Post</string>
+
+    <string name="label_view_author_profile">View Item Author Profile</string>
+    <string name="label_call_to_author">Call To Item Author</string>
+    <string name="label_add_location">Add Location</string>
+
+    <!-- added for version 1.6 -->
+
+    <string name="action_remove_all">Delete all</string>
+
+    <string name="action_grant">Grant</string>
+    <string name="msg_location_permission_request">Please grant permissions to use your location.</string>
+    <string name="label_no_storage_permission">Storage permission isn\'t granted</string>
+    <string name="label_no_location_permission">Location permission isn\'t granted</string>
+    <string name="label_grant_storage_permission">Open Permissions and grant the Storage permission</string>
+    <string name="label_grant_location_permission">Open Permissions and grant the Location permission</string>
+
+    <!-- added for version 1.7 -->
+
+    <string name="label_no_phone_call_permission">Phone call permission isn\'t granted</string>
+    <string name="label_grant_phone_call_permission">Open Permissions and grant the Phone Call permission</string>
+
+    <string name="channel_name" translatable="false">pickerman</string>
+
+    <!-- added for version 1.8 -->
+
+    <!-- DO NOT TRANSLATE START -->
+    <string name="default_notification_channel_id" translatable="false">my_channel_01</string>
+    <string name="settings_first_run" translatable="false">first_run</string>
+    <!-- DO NOT TRANSLATE END-->
+
+    <string name="image_of">%1$d of %2$d</string>
+
+    <string name="msg_item_select_location">Do not select a location!</string>
+
+    <string name="label_add_photos">Add a photo (up to 5pcs)</string>
+    <string name="label_add_title">Enter title text (up to 70 characters)</string>
+    <string name="label_add_price">Select currency | Enter the price</string>
+    <string name="label_add_description">Enter description (up to 500 characters)</string>
+    <string name="label_add_location_to_item">Location</string>
+    <string name="label_add_category">Category</string>
+    <string name="label_add_subcategory">Subcategory</string>
+    <string name="label_add_phone">Phone number, example: +15417543010</string>
+
+    <string name="label_choice_category">Please select a category</string>
+    <string name="msg_choice_category">Please select a category!</string>
+    <string name="label_choice_subcategory">Please select a subcategory</string>
+    <string name="msg_choice_subcategory">Please select a subcategory!</string>
+
+    <string name="action_publish">Post a Ad</string>
+    <string name="action_save_item">Save a Ad Post</string>
+
+    <string name="label_item_location_placeholder">Set Location</string>
+
+    <string name="title_activity_select_location">Select Location</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_search_filters">Search filters</string>
+    <string name="title_activity_flow_filters">Feed filters</string>
+
+    <string name="welcome_screen_1_title">Welcome!</string>
+    <string name="welcome_screen_2_title">Photo and images</string>
+    <string name="welcome_screen_3_title">Items Nearby</string>
+    <string name="welcome_screen_4_title">Thank you!</string>
+
+    <string name="welcome_screen_1_desc">Buy and sell today!</string>
+    <string name="welcome_screen_2_desc">Post photos and pictures of your products!</string>
+    <string name="welcome_screen_3_desc">Look for items nearby!</string>
+    <string name="welcome_screen_4_desc">Thank you for choosing us!</string>
+
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_skip">Skip</string>
+
+    <string name="language_default" translatable="false">Default (English)</string>
+
+    <string name="title_select_language">Select Language</string>
+    <string name="settings_language_label">Language</string>
+    <string name="settings_language_summary">You can select language</string>
+
+
+    <string name="currency_select">Choose a Condition</string>
+    <string name="currency_free">Free</string>
+    <string name="currency_contractual">Price negotiable</string>
+
+    <!-- For Flow Filters-->
+
+    <string name="currency_all">Everything</string>
+
+    <!-- End For Flow Filters -->
+
+    <string name="msg_item_select_currency">Please select a Condition!</string>
+
+    <string name="label_currency_usd_symbol" translatable="false">৳</string>
+
+
+    <string name="nav_view_open" translatable="false">Open navigation drawer</string>
+    <string name="nav_view_close" translatable="false">Close navigation drawer</string>
+
+    <string name="title_activity_new_classified">New Ads</string>
+    <string name="action_add_classified">Post an Ad</string>
+
+    <string name="action_flow_filters">Feed Filters</string>
+    <string name="action_message" >Message</string>
+    <string name="action_set_filters" >Apply filters</string>
+    <string name="action_reset_filters" >Reset filters</string>
+    <string name="action_search_filters_delete_geo" >Delete current location</string>
+    <string name="action_search_filters_select_geo" >Choose a new location</string>
+
+    <string name="label_select_sort_type">Sort by</string>
+    <string name="label_select_moderation_type">Moderation</string>
+    <string name="label_select_currency_type">Condition Type</string>
+    <string name="label_select_distance">Distance</string>
+
+    <string name="label_filters">Filters</string>
+    <string name="label_filters_default">by default</string>
+    <string name="label_filters_set">are set</string>
+
+    <string name="msg_filters_reset_success">Filters are set by default.</string>
+
+    <string name="placeholder_search_box" >Enter text</string>
+
+    <string name="search_page_search_message" >Enter text, select filters and find the right product!</string>
+    <string name="search_page_noresults_message" >Nothing found&#8230; Try another text or filters.</string>
+
+    <string name="settings_search_filters_sort_type" translatable="false">search_filters_sort_type</string>
+    <string name="settings_search_filters_category_id" translatable="false">search_filters_category__id</string>
+    <string name="settings_search_filters_moderation_type" translatable="false">search_filters_moderation_type</string>
+    <string name="settings_search_filters_lat" translatable="false">search_filters_lat</string>
+    <string name="settings_search_filters_lng" translatable="false">search_filters_lng</string>
+    <string name="settings_search_filters_distance" translatable="false">search_filters_distance</string>
+    <string name="settings_search_filters_location" translatable="false">search_filters_location</string>
+
+    <string name="settings_flow_filters_category_id" translatable="false">flow_filters_category__id</string>
+    <string name="settings_flow_filters_currency" translatable="false">flow_filters_currency</string>
+    <string name="settings_flow_filters_lat" translatable="false">flow_filters_lat</string>
+    <string name="settings_flow_filters_lng" translatable="false">flow_filters_lng</string>
+    <string name="settings_flow_filters_distance" translatable="false">flow_filters_distance</string>
+    <string name="settings_flow_filters_location" translatable="false">flow_filters_location</string>
+
+    <string name="settings_new_item_lat" translatable="false">new_item_lat</string>
+    <string name="settings_new_item_lng" translatable="false">new_item_lng</string>
+    <string name="settings_new_item_city" translatable="false">new_item_city</string>
+    <string name="settings_new_item_country" translatable="false">new_item_country</string>
+    <string name="settings_new_item_phone" translatable="false">new_item_phone</string>
+
+    <string name="settings_tooltips_select_location" translatable="false">select_location_tooltip</string>
+    <string name="settings_tooltips_select_location_promo" translatable="false">select_location_promo_tooltip</string>
+    <string name="settings_tooltips_flow" translatable="false">flow_tooltip</string>
+
+    <string name="sort_type_new" >From new to old</string>
+    <string name="sort_type_old" >From old to new</string>
+
+    <string-array name="sortTypeItems">
+        <item>@string/sort_type_new</item>
+        <item>@string/sort_type_old</item>
+    </string-array>
+
+    <string name="moderation_type_all" >All</string>
+    <string name="moderation_type_moderated" >Only verified by moderators</string>
+
+    <string-array name="moderationTypeItems">
+        <item>@string/moderation_type_all</item>
+        <item>@string/moderation_type_moderated</item>
+    </string-array>
+
+    <string name="distance_all">All</string>
+
+    <string name="action_phone_call">Call</string>
+    <string name="action_favorites_add">Add to Favorites</string>
+    <string name="action_favorites_delete">Delete from Favorites</string>
+    <string name="action_show_all_ads">Show all Ads from author</string>
+
+    <string name="message_favorites_deleted">Removed from favorites</string>
+    <string name="message_favorites_added">Added to favorites</string>
+    <string name="message_incorrect_location">Please select the correct location.</string>
+
+    <string name="flow_tooltip_msg">You can personalize your Feed. Set filters for your Feed.</string>
+    <string name="select_location_tooltip_msg">Click in the right place or drag the marker to select a location.</string>
+    <string name="select_location_tooltip_msg_2">We do not show your exact location in your Ad! Only country and city name are displayed!</string>
+
+    <string name="label_just_now">just now</string>
+
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_gdpr" translatable="false">GDPR Privacy Rights</string>
+    <string name="settings_site">Our website</string>
+    <string name="settings_site_summary">Visit our website</string>
+
+    <string name="label_item_approved">Your ad is approved by a moderator.</string>
+    <string name="label_item_rejected">Your ad has been rejected by moderator.</string>
+
+    <string name="label_gcm_item_approved">Your ad is approved by a moderator.</string>
+    <string name="label_gcm_item_rejected">Your ad has been rejected by moderator.</string>
+
+    <string name="label_item_active">Active</string>
+    <string name="label_item_inactive">Inactive</string>
+    <string name="label_item_hot">Hot</string>
+    <string name="label_item_popular">Popular</string>
+    <string name="label_item_new">New</string>
+
+    <string name="label_item_inactive_title">Ad post is not active.</string>
+    <string name="label_item_inactive_subtitle">To make this ad active - you need to edit it.</string>
+    <string name="label_item_inactive_description">Please make your ad correct. Enter the correct title, category, description and images.</string>
+
+    <string name="action_item_inactivate">Make inactive</string>
+    <string name="action_item_activate">Make active</string>
+
+    <string name="msg_action_inactivate">Your ad will not appear in search results. You can, at any time, delete, edit and activate the ad again. Are you sure you want to do this?</string>
+
+    <string name="msg_action_logout">Are you sure you want to logout?</string>
+
+    <string name="placeholder_flow_search_box" >What do you need?</string>
+
+    <string name="label_item_stat">Statistics</string>
+    <string name="label_item_stat_views" >Views</string>
+    <string name="label_item_stat_favorites" >Added to favorites</string>
+    <string name="label_item_stat_phone_views" >Phone Number Views</string>
+    <string name="placeholder_login">Username</string>
+    <string name="page_3">Search</string>
+    <string name="msg_marker_select_location">Give an approximate location!</string>
+    <string name="label_empty_flow_list">Nothing exists here. We couldn\'t find any results for your search. Try clearing some filters and try again.</string>
+
+    <string name="label_invite_share_item_subtitle">Share link to this Ad Post with your friends and acquaintances!</string>
+
+    <string name="label_profile_photo_rejected_new">%s rejected you profile photo. Upload/change profile photo.</string>
+    <string name="label_profile_cover_rejected_new">%s rejected you profile cover. Upload/change profile cover.</string>
+
+    <string name="label_gcm_profile_photo_reject">You profile photo is rejected.</string>
+    <string name="label_gcm_profile_cover_reject">You profile cover is rejected.</string>
+
+    <!--  for version 2.3  -->
+
+    <string name="settings_flow_filters_moderation_type" translatable="false">flow_filters_moderation_type</string>
+    <string name="error_client_id" translatable="false">CLIENT_ID - Incorrect or not the same in both config files! Make the correct configuration of the config files!</string>
+    <string name="error_client_secret" translatable="false">CLIENT_SECRET - Incorrect or not the same in both config files! Make the correct configuration of the config files!</string>
+
+    <!--  For version 2.4  -->
+
+    <string name="action_login_with_google">Log in with Google</string>
+    <string name="action_signup_with_google">Sign up with Google</string>
+    <string name="action_connect_with_google">Connect with Google</string>
+
+    <string name="label_account_connected_to_google">Connected with Google</string>
+    <string name="label_account_connect_to_google">Connect this account with your Google account</string>
+
+    <string name="msg_connect_to_google_success">You have successfully linked application with your Google account!</string>
+    <string name="msg_connect_to_google_error">Your account on Google is already associated with another account.</string>
+    <string name="msg_connect_to_google_removed">Connect with your Google account removed.</string>
+
+    <string name="label_authorization_via_google">Authorization via Google.Lets Complete your Profile</string>
+
+    <!--    -->
+
+    <string name="settings_night_mode" translatable="false">night_mode</string>
+
+    <string name="settings_night_mode_label" translatable="false">Night Mode</string>
+    <string name="settings_night_mode_summary" translatable="false">You can switch app theme</string>
+
+    <!--  for version 2.9  -->
+
+    <string name="label_no_camera_permission" translatable="false">Camera permission isn\'t granted</string>
+    <string name="label_grant_camera_permission" translatable="false">Open Permissions and grant the Camera permission</string>
+
+</resources>

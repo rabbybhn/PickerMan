@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="780dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/activity_app_bg" />
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/app_logo"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150dp"
+            android:theme="@style/MyMaterialTheme.WhiteAccent" />
+
+        <Button
+            android:id="@+id/languageBtn"
+            android:layout_width="260dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/counter_bg"
+            android:stateListAnimator="@null"
+            android:text="Language: English"
+            android:textColor="@color/avatar_border"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/blogs_list_row_bg_hover"
+            android:stateListAnimator="@null"
+            android:text="@string/action_continue"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

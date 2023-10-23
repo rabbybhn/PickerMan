@@ -1,0 +1,601 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    tools:context="webry.pickerman.redder.NewItemFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:minHeight="200dip"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/category_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/category_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textViewCategory"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_category" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/categoryContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorTopBarBackground"
+                            android:orientation="horizontal"
+                            android:padding="8dp">
+
+                            <Spinner
+                                android:id="@+id/choiceCategory"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:spinnerMode="dropdown" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/categoryErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_choice_category" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/subcategory_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/subcategory_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textViewSubcategory"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_subcategory" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/subcategoryContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorTopBarBackground"
+                            android:orientation="horizontal"
+                            android:padding="8dp">
+
+                            <Spinner
+                                android:id="@+id/choiceSubcategory"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:spinnerMode="dropdown" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/subcategoryErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_choice_subcategory" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/photos_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/photo_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_photos" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/photoContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorTopBarBackground"
+                            android:orientation="horizontal">
+
+                            <webry.pickerman.redder.view.SquareImageView
+                                android:id="@+id/choiceItemImg"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_add_image" />
+
+                            <webry.pickerman.redder.view.SquareImageView
+                                android:id="@+id/choiceItemImg2"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_add_image"
+                                android:visibility="visible" />
+
+                            <webry.pickerman.redder.view.SquareImageView
+                                android:id="@+id/choiceItemImg3"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_add_image"
+                                android:visibility="visible" />
+
+                            <webry.pickerman.redder.view.SquareImageView
+                                android:id="@+id/choiceItemImg4"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_add_image"
+                                android:visibility="visible" />
+
+                            <webry.pickerman.redder.view.SquareImageView
+                                android:id="@+id/choiceItemImg5"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_add_image"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/photoErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_item_select_img" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/location_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/location_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textView0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_location_to_item" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/itemLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@drawable/button_gray"
+                            android:text="@string/label_item_location_placeholder"
+                            android:textColor="@color/gray" />
+
+                        <TextView
+                            android:id="@+id/locationErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_item_select_location" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/price_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/price_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_price" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/currencyContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorTopBarBackground"
+                            android:orientation="horizontal"
+                            android:padding="8dp">
+
+                            <Spinner
+                                android:id="@+id/choiceCurrency"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:spinnerMode="dropdown" />
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/itemPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="16dp"
+                            android:ems="10"
+                            android:hint="@string/label_item_price_placeholder"
+                            android:inputType="numberSigned"
+                            android:maxLength="9" />
+
+                        <TextView
+                            android:id="@+id/priceErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_item_select_price" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/title_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/title_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_title" />
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/itemTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:ems="10"
+                            android:hint="@string/label_item_title_placeholder"
+                            android:inputType="textPersonName"
+                            android:maxLength="70" />
+
+                        <TextView
+                            android:id="@+id/titleErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_item_select_title" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/description_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/description_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_description" />
+
+                        </LinearLayout>
+
+                        <github.ankushsachdeva.emojicon.EmojiconEditText
+                            android:id="@+id/itemDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:hint="@string/label_item_description_placeholder"
+                            android:maxLength="500"
+                            android:overScrollMode="never"
+                            android:scrollbarStyle="outsideInset"
+                            android:scrollbars="vertical"
+                            android:textSize="16dp"
+                            emojicon:emojiconSize="24dp" />
+
+                        <TextView
+                            android:id="@+id/descriptionErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_item_select_description" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/phone_number_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/phone_number_checkbox_status"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_weight="0"
+                                android:src="@drawable/ic_checkbox_gray" />
+
+                            <TextView
+                                android:id="@+id/phoneLabelTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:text="@string/label_add_phone" />
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/itemPhoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="16dp"
+                            android:ems="10"
+                            android:hint="@string/label_item_phone_placeholder"
+                            android:inputType="phone"
+                            android:maxLength="24" />
+
+                        <TextView
+                            android:id="@+id/phoneNumberErrorLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="@color/error"
+                            android:text="@string/msg_item_select_phone" />
+
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/allowComments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:checked="true"
+                        android:text="@string/label_allow_comments" />
+
+                    <Button
+                        android:id="@+id/itemPublish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/list_item_bg_pressed"
+                        android:textColor="@color/white"
+                        android:text="@string/action_publish" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

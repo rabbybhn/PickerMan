@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "393258031581",
+    "firebase_url": "https://pickerman-6789d-default-rtdb.firebaseio.com",
+    "project_id": "pickerman-6789d",
+    "storage_bucket": "pickerman-6789d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393258031581:android:60eddd91334bd356d2fe34",
+        "android_client_info": {
+          "package_name": "webry.pickerman.redder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393258031581-36aacsqocoi3oost0dg26462qo7n66ju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webry.pickerman.redder",
+            "certificate_hash": "1d1514f83f061ce2fb95476c06305bc2bb9810d9"
+          }
+        },
+        {
+          "client_id": "393258031581-kgdgeqkg71nq8q1jh9lk7upo3a8md3bq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webry.pickerman.redder",
+            "certificate_hash": "aaf001d03ce397f4f792f07c01862e2df8d9c935"
+          }
+        },
+        {
+          "client_id": "393258031581-jd3tu667jp4cu2b1634vhdoa1tpd0mb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDZsIYfFI7xl5IbEwSTqrYFYIJLAtPj50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393258031581-b2q76q9lpcqkjkj50l7knd2m1fd75rit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

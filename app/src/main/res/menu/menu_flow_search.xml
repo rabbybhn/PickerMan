@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.ifsoft.android.SearchActivity">
+
+    <item
+        android:id="@+id/options_menu_main_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:imeOptions="flagNoExtractUi"
+        app:showAsAction="always"
+        android:queryBackground="@android:color/transparent"
+        app:queryBackground="@android:color/transparent"
+        android:iconifiedByDefault="true"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/action_flow_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/search_business"
+        android:title="@string/action_flow_filters"
+        app:showAsAction="always" />
+</menu>

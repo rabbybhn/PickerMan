@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="webry.pickerman.redder.ViewItemActivity">
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="always"
+        android:title="@string/action_share"/>
+
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/ic_action_not_important"
+        app:showAsAction="always"
+        android:title="@string/action_favorites_add"/>
+
+    <item android:id="@+id/action_open_url" android:title="@string/action_open_url"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_copy_url" android:title="@string/action_copy_url"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_edit" android:title="@string/action_edit"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_activate" android:title="@string/action_item_activate"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_inactivate" android:title="@string/action_item_inactivate"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_remove" android:title="@string/action_remove"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_report" android:title="@string/action_report"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
